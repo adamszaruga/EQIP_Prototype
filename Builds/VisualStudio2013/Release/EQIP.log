@@ -1,0 +1,56 @@
+﻿Build started 3/12/2015 1:15:01 PM.
+     1>Project "C:\Users\Adam\Documents\EQIP\Builds\VisualStudio2013\EQIP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\JuceLibraryCode /I"..\..\..\..\..\..\JUCE-WINDOWS\modules" /I"c:\SDKs\VST3 SDK" /Ic:\SDKs\vstsdk2.4 /Zi /nologo /W4 /WX- /MP /O1 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=0.0.1 /D JUCE_APP_VERSION_HEX=0x1 /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\PluginEditor.cpp
+         PluginEditor.cpp
+     1>c:\users\adam\documents\eqip\source\PluginEditor.h(142): warning C4100: 'rowIsSelected' : unreferenced formal parameter
+     1>c:\users\adam\documents\eqip\source\PluginEditor.h(141): warning C4100: 'height' : unreferenced formal parameter
+     1>c:\users\adam\documents\eqip\source\PluginEditor.h(141): warning C4100: 'width' : unreferenced formal parameter
+     1>c:\users\adam\documents\eqip\source\PluginEditor.h(152): warning C4100: 'columnId' : unreferenced formal parameter
+     1>c:\users\adam\documents\eqip\source\PluginEditor.h(171): warning C4100: 'columnId' : unreferenced formal parameter
+     1>..\..\Source\PluginEditor.cpp(221): warning C4100: 'topLevelMenuIndex' : unreferenced formal parameter
+     1>..\..\Source\PluginEditor.cpp(236): warning C4100: 'y' : unreferenced formal parameter
+     1>..\..\Source\PluginEditor.cpp(236): warning C4100: 'x' : unreferenced formal parameter
+     1>..\..\Source\PluginEditor.cpp(236): warning C4100: 'desc' : unreferenced formal parameter
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\\EQIP.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"Release\\EQIP.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\EQIP.lib" /MACHINE:X86 /SAFESEH /FORCE:multiple /DLL Release\resources.res
+         Release\\FilterGraph.obj
+         Release\\internalFilters.obj
+         Release\\PluginProcessor.obj
+         Release\\PluginEditor.obj
+         Release\\juce_AAX_Wrapper.obj
+         Release\\juce_audio_basics.obj
+         Release\\juce_audio_devices.obj
+         Release\\juce_audio_formats.obj
+         Release\\juce_audio_processors.obj
+         Release\\juce_audio_utils.obj
+         Release\\juce_core.obj
+         Release\\juce_cryptography.obj
+         Release\\juce_data_structures.obj
+         Release\\juce_events.obj
+         Release\\juce_graphics.obj
+         Release\\juce_gui_basics.obj
+         Release\\juce_gui_extra.obj
+         Release\\juce_opengl.obj
+         Release\\juce_PluginUtilities.obj
+         Release\\juce_RTAS_DigiCode1.obj
+         Release\\juce_RTAS_DigiCode2.obj
+         Release\\juce_RTAS_DigiCode3.obj
+         Release\\juce_RTAS_WinUtilities.obj
+         Release\\juce_RTAS_Wrapper.obj
+         Release\\juce_video.obj
+         Release\\juce_VST_Wrapper.obj
+         Release\\juce_VST3_Wrapper.obj
+            Creating library .\Release\EQIP.lib and object .\Release\EQIP.exp
+         Generating code
+         Finished generating code
+         EQIP.vcxproj -> C:\Users\Adam\Documents\EQIP\Builds\VisualStudio2013\.\Release\EQIP.dll
+       PostBuildEvent:
+         copy /Y ".\Release\\EQIP.dll" ".\Release\\EQIP.vst3"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Adam\Documents\EQIP\Builds\VisualStudio2013\EQIP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:54.22
